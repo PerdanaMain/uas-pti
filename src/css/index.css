@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Login */
+.login-card span {
+  font-weight: 500;
+}
+.login-card span a {
+  text-decoration: none;
+  color: #8699da;
+}
+.login-card span a:hover {
+  text-decoration: underline;
+}
+
+.login-wrap {
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.login-wrap .login-card h1 {
+  color: #444b59;
+  font-weight: 600;
+}
+.login-wrap .login-card label {
+  color: #444b59;
+  font-weight: 600;
+}
+.login-wrap .login-card input[type="text"] {
+  border: 2px solid #8699da;
+  border-radius: 20px;
+}
+.login-wrap .login-card input[type="password"] {
+  border: 2px solid #8699da;
+  border-radius: 20px;
+}
+.login-wrap .login-card input::placeholder {
+  font-style: italic;
+}
+.login-wrap .login-card button {
+  background-color: #8699da;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 80px;
+  border: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+.login-wrap .login-card button:hover {
+  background-color: #5a56b7;
+}
+
+@media (max-width: 375px) {
+  .login-wrap {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+/* End Login */
+
+/* Not Found */
+#not-found {
+  box-sizing: border-box;
+}
+
+.empty-4-5 {
+  padding: 2.5rem 2rem 5rem;
+}
+
+.empty-4-5 .main-img {
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 0.5rem;
+  width: 83.333333%;
+}
+
+.empty-4-5 .title-text {
+  font: 600 1.875rem/2.25rem Poppins, sans-serif;
+  color: #272e35;
+  margin-bottom: 1.25rem;
+}
+
+.empty-4-5 .title-caption {
+  color: #9c9c9c;
+  margin-bottom: 4rem;
+  letter-spacing: 0.025em;
+  line-height: 1.75rem;
+}
+.main-img.img-fluid {
+  width: 400px;
+}
+.empty-4-5 .btn-back {
+  font: 600 1.125rem/1.75rem Poppins, sans-serif;
+  background-color: #ff7c57;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.empty-4-5 .btn-back:hover {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* End Not Found */
+
+/* Create */
+.create-wrap.container {
+  width: 400px;
+  height: 400px;
+  padding-top: 50px;
+}
+/* End Create */
